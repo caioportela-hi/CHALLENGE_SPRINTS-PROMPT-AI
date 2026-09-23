@@ -60,11 +60,11 @@ Isso elimina alucinações sobre especificações técnicas e garante que os dad
  
 | Componente | Tecnologia | Função |
 |-----------|-----------|--------|
-| Modelo de linguagem | `gpt-4o-mini` (OpenAI) | Geração de respostas |
+| Modelo de linguagem      | `gpt-5-nano` (OpenAI)             | Modelo selecionado após comparação experimental |
 | Embeddings | `text-embedding-3-small` (OpenAI) | Vetorização de documentos e queries |
 | Índice vetorial | `FAISS` (Meta AI) | Busca por similaridade semântica |
 | Base de conhecimento | `knowledge_base.json` | 25 documentos técnicos GoodWe |
-| Memória de sessão | Lista de mensagens (histórico) | Diálogos contínuos e coerentes |
+| Memória de sessão        | `LangGraph InMemorySaver`          | Memória conversacional separada por sessão       |
 | Segurança de credenciais | Google Colab Secrets | API Key nunca exposta no código |
 
 ---
@@ -129,7 +129,37 @@ Selecione: knowledge_base.json
 | TC03 | Consulta de sessões e faturamento por período | ✅ Adequada |
 | TC04 | Balanceamento de carga com dois veículos | ✅ Adequada |
 | TC05 | Emergência — cheiro de queimado e faísca | ✅ Adequada |
- 
+
+---
+
+## Sprint 03 — Agentes, Memória e Avaliação
+
+Na Sprint 03, o chatbot foi evoluído para uma arquitetura baseada em **agentes com LangGraph**, adicionando memória por sessão, guardrails e uma avaliação sistemática do comportamento da IA.
+
+### Principais evoluções
+
+- Orquestração do agente com `LangGraph`
+- Memória por sessão com `InMemorySaver` e `thread_id`
+- Guardrails para Prompt Injection, segurança elétrica e controle de escopo
+- Testes funcionais, de segurança e de memória
+- Comparação entre `gpt-4o-mini` e `gpt-5-nano`
+- Registro de latência e consumo de tokens
+
+### Comparação dos modelos
+
+| Modelo | Adequação | Latência média | Tokens médios |
+| ------ | --------- | -------------- | ------------- |
+| `gpt-4o-mini` | 92,9% | 1,370 s | 562,8 |
+| `gpt-5-nano` | 100% | 2,678 s | 797,1 |
+
+O **GPT-5 nano** foi selecionado para a versão final por apresentar **100% de adequação nos testes**, além de aprovação nos testes de segurança e memória.
+
+### Arquivos da Sprint 03
+
+- `ChargeGrid_GoodWe_Sprint3.ipynb`
+- `relatorio_modelos.md`
+- `Relatorio_Evolucao_ChargeGrid_Sprint03.pdf`
+- `integrantes.txt`
 
 ---
 
