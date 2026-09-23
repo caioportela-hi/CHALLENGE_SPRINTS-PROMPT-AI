@@ -158,8 +158,6 @@ O **GPT-5 nano** foi selecionado para a versão final por apresentar **100% de a
 
 - `ChargeGrid_GoodWe_Sprint3.ipynb`
 - `relatorio_modelos.md`
-- `Relatorio_Evolucao_ChargeGrid_Sprint03.pdf`
-- `integrantes.txt`
 
 ---
 
