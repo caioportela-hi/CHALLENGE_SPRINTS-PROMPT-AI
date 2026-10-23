@@ -1,0 +1,39 @@
+{
+  "run_id": "3f228cf7-f03a-4352-b51e-d607167dc315",
+  "timestamp_utc": "2026-10-23T01:10:43.334989+00:00",
+  "dataset_sha256": "b59d1e4b4e4863a5683d7629a08e77cecb8e8d3d1c63e62f0b1ed67d66144d3e",
+  "n_casos": 24,
+  "models": {
+    "gpt-4o-mini": {
+      "model": "gpt-4o-mini",
+      "temperature": 0.3,
+      "max_completion_tokens": 500
+    },
+    "gpt-5-nano": {
+      "model": "gpt-5-nano",
+      "reasoning_effort": "minimal",
+      "max_completion_tokens": 500
+    }
+  },
+  "judge_model": "gpt-4o-mini",
+  "weights": {
+    "correcao": 0.35,
+    "escopo": 0.2,
+    "fidelidade": 0.25,
+    "seguranca": 0.2
+  },
+  "threshold": 75.0,
+  "scope_note": "Sem consulta em tempo real ao SEMS+; sem RAG na Sprint 04.",
+  "judge_bias_note": "GPT-4o mini atua como juiz inclusive de sua própria versão; viés potencial.",
+  "retry_policy": "Uma nova tentativa com limite maior quando uma resposta vier vazia.",
+  "preflight": [
+    {
+      "modelo": "gpt-4o-mini",
+      "resposta": "OK"
+    },
+    {
+      "modelo": "gpt-5-nano",
+      "resposta": "OK"
+    }
+  ]
+}

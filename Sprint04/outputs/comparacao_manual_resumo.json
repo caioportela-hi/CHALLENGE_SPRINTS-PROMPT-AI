@@ -1,0 +1,20 @@
+[
+  {
+    "modelo": "gpt-4o-mini",
+    "n_comparaveis": 14,
+    "concordancia_pct": 100.0,
+    "manual_sprint03_pct": 92.9,
+    "auto_sprint04_14_pct": 92.9,
+    "divergencias": []
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "n_comparaveis": 14,
+    "concordancia_pct": 92.9,
+    "manual_sprint03_pct": 100.0,
+    "auto_sprint04_14_pct": 92.9,
+    "divergencias": [
+      "TC04"
+    ]
+  }
+]
