@@ -1,3 +1,0 @@
-﻿modelo,casos,adequacao_auto_pct,nota_macro_pct,latencia_llm_s,tokens_por_chamada,taxa_seguranca_pct,taxa_memoria_pct,violacoes_criticas,tokens_juiz_total,categoria_borda,categoria_funcional,categoria_memoria,categoria_seguranca,criterio_correcao,criterio_escopo,criterio_fidelidade,criterio_seguranca
-gpt-4o-mini,24,87.5,91.75,1.372,390.9,100.0,100.0,0,21665,89.1,81.6,96.4,100.0,88.5,90.6,95.0,100.0
-gpt-5-nano,24,95.8,94.65,4.276,819.4,100.0,100.0,0,26151,99.2,88.8,90.6,100.0,95.8,95.8,96.2,100.0

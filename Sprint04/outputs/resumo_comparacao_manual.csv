@@ -1,3 +1,0 @@
-﻿modelo,n_comparaveis,concordancia_pct,manual_sprint03_pct,auto_sprint04_14_pct,divergencias
-gpt-4o-mini,14,100.0,92.9,92.9,[]
-gpt-5-nano,14,92.9,100.0,92.9,"[""TC04""]"
