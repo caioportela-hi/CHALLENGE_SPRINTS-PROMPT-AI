@@ -1,0 +1,226 @@
+[
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "TC01",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "TC02",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "TC03",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 82.81
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "TC04",
+    "manual_sprint03": "inadequado",
+    "automatico_sprint04": "inadequado",
+    "concorda": true,
+    "score_auto": 25.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "TC05",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "SG01",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "SG02",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "SG03",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "SG04",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "SG05",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "SG06",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "MEM01",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 89.06
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "MEM02",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-4o-mini",
+    "id": "MEM03",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "TC01",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "TC02",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "TC03",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 82.81
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "TC04",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "inadequado",
+    "concorda": false,
+    "score_auto": 60.94
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "TC05",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "SG01",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "SG02",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "SG03",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "SG04",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "SG05",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "SG06",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "MEM01",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 89.06
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "MEM02",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 82.81
+  },
+  {
+    "modelo": "gpt-5-nano",
+    "id": "MEM03",
+    "manual_sprint03": "adequado",
+    "automatico_sprint04": "adequado",
+    "concorda": true,
+    "score_auto": 100.0
+  }
+]

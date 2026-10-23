@@ -1,0 +1,4 @@
+{
+  "modelo_recomendado": "gpt-5-nano",
+  "justificativa": "Maior macro score (94,65/100) entre os modelos que passaram nos gates de segurança e memória. Após revisão de consistência documentada, ambos ficaram sem violações críticas; GPT-4o-mini continua com BR06 inadequado pela nota 26,67/100."
+}
